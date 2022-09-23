@@ -34,7 +34,6 @@ function createPromise(position, delay) {
       }
     }, delay);
   });
-  refs.form.removeEventListener()
 }
 
 function onSuccess({ position, delay }) {

@@ -36,7 +36,7 @@ const flatpickrSetting = {
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
-  onChange(selectedDates) {
+  onClose(selectedDates) {
     const { defaultDate } = this.config;
     if (selectedDates[0] < defaultDate) {
       Notify.failure('Please choose a date in the future');
